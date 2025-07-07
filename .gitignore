@@ -1,0 +1,40 @@
+# Ignore virtual environment
+finetuning/
+.env/
+*.env
+
+# Bytecode and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and PyCharm settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Model and dataset artifacts
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.onnx
+*.gguf
+workspace/
+
+# HuggingFace cache
+~/.cache/huggingface/
+
+# DeepEval test artifacts
+deep_eval_results/
